@@ -67,7 +67,7 @@ print(See_boolean)
 if (See_boolean):
     print("Boolean expression returned True")
 else:
-    print("Boolean expression returned False")
+    print("boolean expression returned False")
 
 
 
