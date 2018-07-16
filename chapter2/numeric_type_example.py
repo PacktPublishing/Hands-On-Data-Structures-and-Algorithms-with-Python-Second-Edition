@@ -65,9 +65,9 @@ See_boolean = (4 * 3 > 10) and (6 + 5 >= 11)
 print(See_boolean)
 
 if (See_boolean):
-    print(“Boolean expression returned True”)
+    print("Boolean expression returned True")
 else:
-    print(“Boolean expression returned False”)
+    print("Boolean expression returned False")
 
 
 
