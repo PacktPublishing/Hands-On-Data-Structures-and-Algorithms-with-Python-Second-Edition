@@ -31,3 +31,16 @@ t1=time.time()
 sum(oddLst(1,1000000))
 
 print("Time to build and sum a list: %f " % (time.time() - t1))
+
+
+#print odd list
+for i in oddLst(1,10): print(i)
+
+# creation of generator object 
+list1 = [1,2,3,4]
+
+gen1 = (10** i for i in list1)
+
+print(gen1)
+
+for x in gen1: print(x)
