@@ -14,7 +14,7 @@ def generate_hash(text, pattern):
             hash_text[i] = ((hash_text[i-1] - ord_text[i-1]) + ord_text[i+len_pattern-1])   # calculating next hash value using previous value
     return [hash_text, hash_pattern]                               # return the hash values
 
-# generic program for pattern matching. works fine for alphabateic, numeric or alphanumeric values.
+
 
 def Rabin_Karp_Matcher(text, pattern):
     text = str(text)                                                     # convert text into string format
@@ -37,14 +37,14 @@ def Rabin_Karp_Matcher(text, pattern):
     if not flag:                                                         # if pattern doesn't match even once, then this if statement is executed
         print('Pattern is not at all present in the text')
 
-Rabin_Karp_Matcher(101110000011010010101101,10112)
+Rabin_Karp_Matcher("101110000011010010101101","10112")
 
 # Works for numeric
-Rabin_Karp_Matcher(101110000011010010101101,1011)
+Rabin_Karp_Matcher("101110000011010010101101","1011")
 
 # Works for alphabets
-Rabin_Karp_Matcher('ABBACCADABBACCEDF','ACCE')
+Rabin_Karp_Matcher("ABBACCADABBACCEDF","ACCE")
 
 # Works for alpha numeric
-Rabin_Karp_Matcher('abc1-3klm890zsdoifjwej8cjv09wn vn09aej09jv 09wje09cj 09 j093j0 9j 092j3 09c09', '09w')
+Rabin_Karp_Matcher("abc1-3klm890zsdoifjwej8cjv09wn vn09aej09jv 09wje09cj 09 j093j0 9j 092j3 09c09", "09w")
 
