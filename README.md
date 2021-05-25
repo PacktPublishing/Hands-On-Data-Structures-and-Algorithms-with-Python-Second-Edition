@@ -23,6 +23,10 @@ If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1788
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
 alt="https://www.packtpub.com/" border="5" /></a>
 
+## Errata
+* Page 105: Fourth line in the first code block must be read as "self.head = None" instead of "self.tail = None".
+* Page 108: Fifth line in the first code block must be read as "self.size -= 1" instead of "self.count -= 1".
+
 ## Instructions and Navigations
 All of the code is organized into folders. For example, Chapter02.
 
